@@ -1,0 +1,1 @@
+DROP TABLE IF EXSTS counter;
