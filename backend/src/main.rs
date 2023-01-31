@@ -14,8 +14,10 @@ async fn db() -> Result<PgPool, SQLxError> {
 async fn index_handler(State(pool): State<PgPool>) -> Html<String> {
     let views = update_current_count(&pool).await;
     match views {
-        Ok(current) => Html(format!("<h1>Random Number: {}</h1>", current)),
-        Err(_) => Html(String::from("🐼 Unable To Get Current Views")),
+        Ok(current) => Html(format!("<h1>Page Views: {}</h1>", current)),
+        Err(_) => Html(String::from(
+            "🐼 Unable To Get Current Number Of Page Views",
+        )),
     }
 }
 
