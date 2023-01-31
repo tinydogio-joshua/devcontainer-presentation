@@ -8,6 +8,19 @@
 	"features": {
 		"ghcr.io/devcontainers/features/node:1": {},
 		"ghcr.io/devcontainers-contrib/features/typescript:2": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"rust-lang.rust-analyzer",
+				"tamasfe.even-better-toml",
+				"dbaeumer.vscode-eslint",
+				"serayuzgur.crates",
+				"vadimcn.vscode-lldb",
+				"mutantdino.resourcemonitor",
+				"mtxr.sqltools"
+			]
+		}
 	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
