@@ -18,23 +18,28 @@
 				"serayuzgur.crates",
 				"vadimcn.vscode-lldb",
 				"mutantdino.resourcemonitor",
-				"mtxr.sqltools"
-			]
+				"mtxr.sqltools",
+				"ms-azuretools.vscode-docker",
+				"mtxr.sqltools-driver-pg"
+			],
+			"settings": {
+				"sqltools.autoConnectTo": [
+					"PGSQL"
+				],
+				"sqltools.connections": [
+					{
+						"name": "PGSQL",
+						"server": "localhost",
+						"driver": "PostgreSQL",
+						"port": 5432,
+						"database": "postgres",
+						"username": "postgres",
+						"askForPassword": false,
+						"password": "postgres",
+						"connectionTimeout": 15
+					}
+				]
+			}
 		}
 	}
-
-	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {},
-
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [5432],
-
-	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "rustc --version",
-
-	// Configure tool-specific properties.
-	// "customizations": {},
-
-	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-	// "remoteUser": "root"
 }
