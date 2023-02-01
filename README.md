@@ -26,7 +26,7 @@ _`Dev Containers` are a feature currently shipping for [Visual Studio Code](http
   * [Other vendors](https://youtrack.jetbrains.com/issue/IDEA-292050/Support-for-.devcontainer#focus=Comments-27-6005224.0-0) are looking to adopt.
 * Flakey containers if running on arch64 (Example: Apple Silicon).
   * Software is still transitioning.
-  * This is more of a Docker issue than a `dev container` issue.
+  * This is more of a [Docker](https://www.docker.com/) issue than a `dev container` issue.
   * > 🚨 _I picked this stack for this project as it currently is one of those flakey containers and I want to show what to do when things go wrong._
 
 ## Requirements
