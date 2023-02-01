@@ -63,6 +63,7 @@ _`Dev Containers` are a feature currently shipping for [Visual Studio Code](http
   * SQL (Configured)
     * Show Postgres connection, but no db.
   * Adding new extensions to `.devcontainer.json` via extension panel.
+    * Search for `vscode-pets`.
 * Migrations
   * Run via Terminal
     * `cd backend`
