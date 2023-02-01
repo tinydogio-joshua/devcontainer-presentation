@@ -21,7 +21,7 @@ _`Dev Containers` are a feature currently shipping for [Visual Studio Code](http
 ### Downsides
 
 * Slower than running on the Host OS.
-* Currently a [Visual Studio Code](https://code.visualstudio.com/) and [GitHub Codespaces](https://github.com/features/codespaces) _ONLY_ feature.
+* _Currently_ a [Visual Studio Code](https://code.visualstudio.com/) and [GitHub Codespaces](https://github.com/features/codespaces) only feature.
   * [Currently being standardized](https://containers.dev/).
   * [Other vendors](https://youtrack.jetbrains.com/issue/IDEA-292050/Support-for-.devcontainer#focus=Comments-27-6005224.0-0) are looking to adopt.
 * Flakey containers if running on arch64 (Example: Apple Silicon).
