@@ -88,7 +88,7 @@ _`Dev Containers` are a feature currently shipping for [Visual Studio Code](http
 console.log("Hello, Dev Container");
 ```
 
-### 🎨 Show Frontend Project
+### 🎨 Show Production Level Project
 
 * Quick Overview of Project
 * Mapped Environment Variables
