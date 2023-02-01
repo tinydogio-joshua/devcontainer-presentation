@@ -20,7 +20,8 @@
 				"mutantdino.resourcemonitor",
 				"mtxr.sqltools",
 				"ms-azuretools.vscode-docker",
-				"mtxr.sqltools-driver-pg"
+				"mtxr.sqltools-driver-pg",
+				"streetsidesoftware.code-spell-checker"
 			],
 			"settings": {
 				"sqltools.autoConnectTo": [
