@@ -18,6 +18,7 @@ _`Dev Containers` are a feature currently shipping for [Visual Studio Code](http
 * Full project setup in minutes.
 * Version controlled Development experience.
 * Can be hosted in the cloud (Example: [GitHub Codespaces](https://github.com/features/codespaces)).
+* **⭐️ NEW**: [Multiple Configurations Per Project](https://github.com/microsoft/vscode-docs/blob/main/remote-release-notes/v1_75.md#folders-with-multiple-devcontainerjson-files) allowing for different setups for different types of work.
 
 ### 👎 Downsides
 
@@ -52,7 +53,7 @@ _`Dev Containers` are a feature currently shipping for [Visual Studio Code](http
 
 * Starting out, no images, container, or volumes exist for this project.
 * Cloning this project with Dev Container.
-  * Show `.devcontainer` directory. 
+  * Show `.devcontainer` directory.
 * "Open in Container" icon and prompt.
 * Startup Log
 * Terminal (In Container vs Host OS)
