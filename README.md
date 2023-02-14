@@ -73,7 +73,8 @@ _`Dev Containers` are a feature currently shipping for [Visual Studio Code](http
 * Mapped Ports
   * Start project:
     * `cd backend`
-    * `cargo build && cargo run`
+    * `cargo build`
+    * `cargo run`
       * > 🚨 I know `cargo run` does a build, but this is working around one of the flakey issues in this container.
   * Show access via host:
     * [http://localhost:3000](http://localhost:3000)
